@@ -32,10 +32,10 @@ export default function Projects() {
               className="w-full h-auto transition-opacity duration-300 ease-in-out group-hover:opacity-60 group-active:opacity-60"
             />
             <div className="absolute top-[-70px] inset-0 flex flex-col justify-center items-center gap-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
-              <button className="text-white font-bold text-[16px] border-b-4 border-[#4EE1A0] px-4 py-2 hover:text-[#4EE1A0] active:text-[#4EE1A0] cursor-pointer">
+              <button className="text-white font-bold text-[16px] border-b-4 border-[#4EE1A0] px-4 py-2 hover:text-[#4EE1A0] active:text-[#4EE1A0] focus:text-[#4EE1A0] cursor-pointer">
                 VIEW PROJECT
               </button>
-              <button className="text-white font-bold text-[16px] border-b-4 border-[#4EE1A0] px-4 py-2 hover:text-[#4EE1A0] active:text-[#4EE1A0] cursor-pointer">
+              <button className="text-white font-bold text-[16px] border-b-4 border-[#4EE1A0] px-4 py-2 hover:text-[#4EE1A0] active:text-[#4EE1A0] focus:text-[#4EE1A0] cursor-pointer">
                 VIEW CODE
               </button>
             </div>
@@ -50,7 +50,7 @@ export default function Projects() {
                 CSS
               </p>
             </div>
-            <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-40 group-active:opacity-40 transition-opacity duration-300 ease-in-out"></div>
+            <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-40 group-active:opacity-40 group-focus:opacity-40 transition-opacity duration-300 ease-in-out"></div>
           </div>
           <div className="project2 w-[90%] md:w-[540px] flex flex-col gap-3.5 relative group">
             <img
